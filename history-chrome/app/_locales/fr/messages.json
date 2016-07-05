@@ -1,0 +1,26 @@
+{
+  "appName": {
+    "message": "connect-history",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message" : "Cette extension collecte l'historique de navigation OAuth2.0 et analyse l'utilisation du paramètre scope par les clients. https://github.com/Sparika/history-addons.",
+    "description": "The description of the application"
+  },
+  "aboutConnect": {
+    "message" : "<p>Cette extension collecte l'historique OpenID Connect/OAuth2.0 et analyse l'utilisation du paramère scope par les clients.</p><p>L'objectif de cette addon est de découvrir l'utilisation d'OAuth2.0 par les sites clients. Trouver les paramètres OAuth2.0 nous permet d'établir une cartographie et une catégorisation de l'utilisation d'OAuth2.0 par les sites visités par l'utilisateur. Pour ce faire, l'extension parse l'historique de navigation à la recherche d'URLs OAuth2.0. Ces Urls ne contiennent pas d'information privée.</p><p>Le code est disponible à <a target='_top' href='https://github.com/Sparika/history-addons'>https://github.com/Sparika/history-addons</a>.</p>",
+    "description": "About panel text"
+  },
+  "TC_1": {
+    "message": "Conformément aux législations française et européenne sur la protection des données personnelles, nous sollicitons votre accord explicite sur l'utilisation des données collectées par la présente application, détaillées ci-dessous:",
+    "description": "first paragraph for TC"
+  },
+  "TC_2": {
+    "message": "Ces données seront utilisées dans un but de publication scientifique.",
+    "description": "second paragraph for TC"
+  },
+  "acceptTC": {
+    "message": "En cliquant sur le bouton 'submit' je déclare accepter les présentes conditions d'utilisation.",
+    "description": "accept tc"
+  }
+}

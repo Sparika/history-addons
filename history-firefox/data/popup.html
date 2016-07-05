@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+      }
+      html, body {
+        width: 500px;
+        height: 300px;
+      }
+      #content {
+        width: 95%;
+        margin:0 auto;
+        height: 200px;
+      }
+      .header{
+        font-weight: bold;
+        width: 100%;
+        height: 70px;
+      }
+      .titleAndTab{
+        display: inline-block;
+      }
+      #logo{
+        display: inline-block;
+      }
+      #title{
+      font-size: x-large;
+      }
+      .description, data{
+        height: 160px;
+      }
+      .version, description{
+        font-size: small;
+      }
+      #pushedData {
+        height: 130px;
+        overflow: scroll;
+      }
+      .button{
+        width: 95%;
+        margin:0 auto;
+        height: 20px;
+      }
+      #buttonSubmit{
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="header">
+      <img id="logo" src="icon-64.png"height="64" width="64">
+      <div class="titleAndTab">
+        <span id="title"></span><br/>
+        <span id="tab"></span>
+      </div>
+    </div>
+    <div id="content">
+      <div id="aboutDiv">
+        <div class="description">
+            <p id="aboutTitle"></p>
+            <p id="aboutMain"></p>
+            <p><span id="aboutSource"></span> <a target='_top' href='https://github.com/Sparika/history-addons'>https://github.com/Sparika/history-addons</a></p>
+        </div>
+        <div class="version">
+          <p id="version"></p>
+        </div>
+      </div>
+      <div class="data" id="dataDiv">
+        <p> All data visible at <a target="_blank" href="https://connect-history.rethink2.orange-labs.fr/data">https://connect-history.rethink2.orange-labs.fr</a></p>
+        <p>
+          <span id="userid"></span><br/>
+          <span id="lastTime"></span>
+        </p>
+        <div id="pushedData"></div>
+      </div>
+      <div class="data" id="submitDiv">
+        <p>
+          <span id="TC_1"></span><br/>
+          <ul>
+          <li>OAuth 2.0 request urls (scope, claims, client_id, redirect_uri, response_type, acr_values)</li>
+          <li>User-Agent string</li>
+        </ul>
+        </p>
+        <p>
+          <span id="TC_2"></span>
+        </p>
+        <p>
+        <span id="acceptTC"></span>
+        </p>
+        <button id="buttonSubmit">Submit</button>
+      </div>
+    </div>
+    <div class="button">
+      <button id="buttonInfo">About</button>
+      <button id="buttonData">Data</button>
+      <button id="buttonCollect">Collect</button>
+      <button id="buttonReset">Reset</button>
+    </div>
+  </body>
+</html>
+
